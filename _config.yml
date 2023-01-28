@@ -16,8 +16,8 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "So Simple Development Site"
-description: "A simple Jekyll theme for words and pictures."
+title: "CryptoLinx"
+description: "CISC 322 Architecture Group Project site "
 # baseurl: "/example" # the subpath of your site, e.g. "/blog"
 url: "https://bdotlai9.github.io/cryptolinx/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
