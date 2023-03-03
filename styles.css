@@ -1,21 +1,49 @@
-/* set background color for the entire page */
 body {
     background-color: #f6941475;
     font-family: 'Verdana';
 }
-
-/* center all sections
-section {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
- */
 h1 {
     text-align: center;
 }
- section {
+section {
     display: grid;
     place-items: center;
+}
+ul li {
+    margin-bottom: 10px;
+}
+.assignments {
+    display: flex;
+    justify-content: center;
+}
+#assignment-1,
+#assignment-2,
+#assignment-3 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 100px;
+}
+
+/* less wide windows will have assignment sections displayed 
+individually instead of all side by side */
+@media (max-width: 1188px) {
+.assignments {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#assignment-1,
+#assignment-2,
+#assignment-3 {
+    flex-basis: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+section {
+    display: grid;
+    place-items: center;
+}
 }
